@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lombok Personal Driver | Your Trusted Guide to Paradise</title>
+    <meta name="description" content="Looking for a safe and friendly personal driver in Lombok? Giandra Transport offers reliable airport transfers and custom day tours. Book your adventure today!">
+    <title>Lombok Personal Driver & Tour Guide | Giandra Transport</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -231,7 +232,7 @@
                 document.documentElement.lang = lang;
             }
             langButtons.forEach(btn => { btn.addEventListener('click', () => setLanguage(btn.id.includes('en') ? 'en' : 'id')); });
-            setLanguage(localStorage.getItem('language') || 'en');
+            setLanguage(localStorage.getItem('language') || 'id');
             const mobileMenuButton = document.getElementById('mobile-menu-button'); const mobileMenu = document.getElementById('mobile-menu'); const mobileMenuLinks = document.querySelectorAll('.mobile-menu-link'); mobileMenuButton.addEventListener('click', () => mobileMenu.classList.toggle('hidden')); mobileMenuLinks.forEach(link => link.addEventListener('click', () => mobileMenu.classList.add('hidden'))); const header = document.getElementById('main-header'); window.addEventListener('scroll', () => header.classList.toggle('scrolled', window.scrollY > 50)); const fadeElems = document.querySelectorAll('.fade-in-element'); const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('is-visible'); }); }, { threshold: 0.1 }); fadeElems.forEach(elem => observer.observe(elem));
 
             // --- CONTINUOUS MARQUEE SCRIPT ---
@@ -255,4 +256,3 @@
     </script>
 </body>
 </html>
-
